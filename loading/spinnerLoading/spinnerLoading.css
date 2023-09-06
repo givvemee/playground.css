@@ -9,9 +9,9 @@
   mask: var(--_m);
   -webkit-mask-composite: source-out;
   mask-composite: subtract;
-  animation: loading 1s infinite linear;
+  animation: spinnerloading 1s infinite linear;
 }
-@keyframes loading {
+@keyframes spinnerloading {
   to {
     transform: rotate(1turn);
   }
